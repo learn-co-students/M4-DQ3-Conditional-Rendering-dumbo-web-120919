@@ -4,6 +4,14 @@ import {Card, Button, Image, Loader} from 'semantic-ui-react'
 
 /*No need to code in here! These are merely presentational components.*/
 
+export const BlankPage = () => (
+  <Card fluid>
+    <Card.Content textAlign="center">
+      <h3>Welcome to the page!</h3>
+    </Card.Content>
+  </Card>
+)
+
 export const Profile = () => (
   <Card fluid>
     <Card.Content textAlign="center">
